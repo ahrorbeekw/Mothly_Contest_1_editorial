@@ -1,0 +1,8 @@
+n=int(input())
+a=[]
+for i in range(n):
+  p,d=map(int,input().split())
+  t=p*d
+  a.append(t)
+  print(t)
+print(min(a))
